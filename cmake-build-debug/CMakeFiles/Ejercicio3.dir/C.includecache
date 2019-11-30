@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej3/nforgn.c
+nforgn.h
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej3/nforgn.h
+stddef.h
+-
+
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej3/nforgn.h
+stddef.h
+-
+

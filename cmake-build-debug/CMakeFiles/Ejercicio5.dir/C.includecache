@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej5/fleerstrng.c
+fleerstrng.h
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej5/fleerstrng.h
+stdlib.h
+-
+stdio.h
+-
+
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej5/fleerstrng.h
+
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej5/main.c
+stdlib.h
+-
+stdio.h
+-
+fleerstrng.h
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej5/fleerstrng.h
+

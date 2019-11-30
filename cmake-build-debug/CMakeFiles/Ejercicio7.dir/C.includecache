@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej7/fpasswrd.c
+ctype.h
+-
+string.h
+-
+stdio.h
+-
+fpasswrd.h
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej7/fpasswrd.h
+
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/Ej7/fpasswrd.h
+
