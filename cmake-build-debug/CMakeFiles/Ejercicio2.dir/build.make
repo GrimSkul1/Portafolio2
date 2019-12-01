@@ -56,27 +56,27 @@ include CMakeFiles/Ejercicio2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ejercicio2.dir/flags.make
 
-CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.obj: CMakeFiles/Ejercicio2.dir/flags.make
-CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.obj: ../Ej3/mainsp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Ejercicio2.dir\Ej3\mainsp.c.obj   -c "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\Ej3\mainsp.c"
+CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.obj: CMakeFiles/Ejercicio2.dir/flags.make
+CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.obj: ../Ej2/fsuper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Ejercicio2.dir\Ej2\fsuper.c.obj   -c "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\Ej2\fsuper.c"
 
-CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\Ej3\mainsp.c" > CMakeFiles\Ejercicio2.dir\Ej3\mainsp.c.i
+CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\Ej2\fsuper.c" > CMakeFiles\Ejercicio2.dir\Ej2\fsuper.c.i
 
-CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\Ej3\mainsp.c" -o CMakeFiles\Ejercicio2.dir\Ej3\mainsp.c.s
+CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\Ej2\fsuper.c" -o CMakeFiles\Ejercicio2.dir\Ej2\fsuper.c.s
 
 # Object files for target Ejercicio2
 Ejercicio2_OBJECTS = \
-"CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.obj"
+"CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.obj"
 
 # External object files for target Ejercicio2
 Ejercicio2_EXTERNAL_OBJECTS =
 
-Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.obj
+Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.obj
 Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/build.make
 Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/linklibs.rsp
 Ejercicio2.exe: CMakeFiles/Ejercicio2.dir/objects1.rsp

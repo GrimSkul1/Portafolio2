@@ -25,3 +25,4 @@ struct base_estudiantes{
     int edad;
     struct info_materias materias;
 }Estudiante;
+

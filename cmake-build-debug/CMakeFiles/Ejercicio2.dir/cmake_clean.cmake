@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Ejercicio2.dir/Ej3/mainsp.c.obj"
+  "CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.obj"
   "Ejercicio2.exe"
   "Ejercicio2.exe.manifest"
   "Ejercicio2.pdb"

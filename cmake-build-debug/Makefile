@@ -174,6 +174,19 @@ Ejercicio7/fast:
 	$(MAKE) -f CMakeFiles\Ejercicio7.dir\build.make CMakeFiles/Ejercicio7.dir/build
 .PHONY : Ejercicio7/fast
 
+#=============================================================================
+# Target rules for targets named Ejercicio2
+
+# Build rule for target.
+Ejercicio2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ejercicio2
+.PHONY : Ejercicio2
+
+# fast build rule for target.
+Ejercicio2/fast:
+	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/build
+.PHONY : Ejercicio2/fast
+
 Ej1/funcquit.obj: Ej1/funcquit.c.obj
 
 .PHONY : Ej1/funcquit.obj
@@ -200,6 +213,33 @@ Ej1/funcquit.s: Ej1/funcquit.c.s
 Ej1/funcquit.c.s:
 	$(MAKE) -f CMakeFiles\Ejercicio1.dir\build.make CMakeFiles/Ejercicio1.dir/Ej1/funcquit.c.s
 .PHONY : Ej1/funcquit.c.s
+
+Ej2/fsuper.obj: Ej2/fsuper.c.obj
+
+.PHONY : Ej2/fsuper.obj
+
+# target to build an object file
+Ej2/fsuper.c.obj:
+	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.obj
+.PHONY : Ej2/fsuper.c.obj
+
+Ej2/fsuper.i: Ej2/fsuper.c.i
+
+.PHONY : Ej2/fsuper.i
+
+# target to preprocess a source file
+Ej2/fsuper.c.i:
+	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.i
+.PHONY : Ej2/fsuper.c.i
+
+Ej2/fsuper.s: Ej2/fsuper.c.s
+
+.PHONY : Ej2/fsuper.s
+
+# target to generate assembly for a file
+Ej2/fsuper.c.s:
+	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/Ej2/fsuper.c.s
+.PHONY : Ej2/fsuper.c.s
 
 Ej3/nforgn.obj: Ej3/nforgn.c.obj
 
@@ -379,9 +419,13 @@ help:
 	@echo ... Ejercicio5
 	@echo ... Ejercicio7
 	@echo ... edit_cache
+	@echo ... Ejercicio2
 	@echo ... Ej1/funcquit.obj
 	@echo ... Ej1/funcquit.i
 	@echo ... Ej1/funcquit.s
+	@echo ... Ej2/fsuper.obj
+	@echo ... Ej2/fsuper.i
+	@echo ... Ej2/fsuper.s
 	@echo ... Ej3/nforgn.obj
 	@echo ... Ej3/nforgn.i
 	@echo ... Ej3/nforgn.s

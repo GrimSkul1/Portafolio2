@@ -53,4 +53,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Ejercicio4.dir/DependInfo.cmake"
   "CMakeFiles/Ejercicio5.dir/DependInfo.cmake"
   "CMakeFiles/Ejercicio7.dir/DependInfo.cmake"
+  "CMakeFiles/Ejercicio2.dir/DependInfo.cmake"
   )

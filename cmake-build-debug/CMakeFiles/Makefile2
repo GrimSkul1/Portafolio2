@@ -57,6 +57,7 @@ all: CMakeFiles/Ejercicio3.dir/all
 all: CMakeFiles/Ejercicio4.dir/all
 all: CMakeFiles/Ejercicio5.dir/all
 all: CMakeFiles/Ejercicio7.dir/all
+all: CMakeFiles/Ejercicio2.dir/all
 
 .PHONY : all
 
@@ -66,6 +67,7 @@ clean: CMakeFiles/Ejercicio3.dir/clean
 clean: CMakeFiles/Ejercicio4.dir/clean
 clean: CMakeFiles/Ejercicio5.dir/clean
 clean: CMakeFiles/Ejercicio7.dir/clean
+clean: CMakeFiles/Ejercicio2.dir/clean
 
 .PHONY : clean
 
@@ -108,7 +110,7 @@ CMakeFiles/Ejercicio1.dir/clean:
 CMakeFiles/Ejercicio3.dir/all:
 	$(MAKE) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/depend
 	$(MAKE) -f CMakeFiles\Ejercicio3.dir\build.make CMakeFiles/Ejercicio3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=4,5 "Built target Ejercicio3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=6,7 "Built target Ejercicio3"
 .PHONY : CMakeFiles/Ejercicio3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -135,7 +137,7 @@ CMakeFiles/Ejercicio3.dir/clean:
 CMakeFiles/Ejercicio4.dir/all:
 	$(MAKE) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/depend
 	$(MAKE) -f CMakeFiles\Ejercicio4.dir\build.make CMakeFiles/Ejercicio4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=6,7 "Built target Ejercicio4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=8,9 "Built target Ejercicio4"
 .PHONY : CMakeFiles/Ejercicio4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -162,7 +164,7 @@ CMakeFiles/Ejercicio4.dir/clean:
 CMakeFiles/Ejercicio5.dir/all:
 	$(MAKE) -f CMakeFiles\Ejercicio5.dir\build.make CMakeFiles/Ejercicio5.dir/depend
 	$(MAKE) -f CMakeFiles\Ejercicio5.dir\build.make CMakeFiles/Ejercicio5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=8,9,10 "Built target Ejercicio5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=10,11,12 "Built target Ejercicio5"
 .PHONY : CMakeFiles/Ejercicio5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -189,7 +191,7 @@ CMakeFiles/Ejercicio5.dir/clean:
 CMakeFiles/Ejercicio7.dir/all:
 	$(MAKE) -f CMakeFiles\Ejercicio7.dir\build.make CMakeFiles/Ejercicio7.dir/depend
 	$(MAKE) -f CMakeFiles\Ejercicio7.dir\build.make CMakeFiles/Ejercicio7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=11,12,13 "Built target Ejercicio7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=13,14,15 "Built target Ejercicio7"
 .PHONY : CMakeFiles/Ejercicio7.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,6 +210,33 @@ Ejercicio7: CMakeFiles/Ejercicio7.dir/rule
 CMakeFiles/Ejercicio7.dir/clean:
 	$(MAKE) -f CMakeFiles\Ejercicio7.dir\build.make CMakeFiles/Ejercicio7.dir/clean
 .PHONY : CMakeFiles/Ejercicio7.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ejercicio2.dir
+
+# All Build rule for target.
+CMakeFiles/Ejercicio2.dir/all:
+	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/depend
+	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" --progress-num=4,5 "Built target Ejercicio2"
+.PHONY : CMakeFiles/Ejercicio2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ejercicio2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Ejercicio2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Bryan\Documents\Universidad\Fundamentos de Programacion\PortafolioNo.2\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Ejercicio2.dir/rule
+
+# Convenience name for target.
+Ejercicio2: CMakeFiles/Ejercicio2.dir/rule
+
+.PHONY : Ejercicio2
+
+# clean rule for target.
+CMakeFiles/Ejercicio2.dir/clean:
+	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/clean
+.PHONY : CMakeFiles/Ejercicio2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

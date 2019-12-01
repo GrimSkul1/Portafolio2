@@ -8,4 +8,4 @@ add_executable(Ejercicio3 Ej3/nforgn.c Ej3/nforgn.h)
 add_executable(Ejercicio4 Ej4/fschool.c Ej4/fschool.h)
 add_executable(Ejercicio5 Ej5/fleerstrng.c Ej5/fleerstrng.h Ej5/main.c)
 add_executable(Ejercicio7 Ej7/fpasswrd.c Ej7/fpasswrd.h Ej7/main.c)
-
+add_executable(Ejercicio2 Ej2/fsuper.c Ej2/fsuper.h)
