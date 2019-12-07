@@ -6,3 +6,4 @@ C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/
 C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/cmake-build-debug/CMakeFiles/Ejercicio7.dir
 C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/cmake-build-debug/CMakeFiles/Ejercicio2.dir
+C:/Users/Bryan/Documents/Universidad/Fundamentos de Programacion/PortafolioNo.2/cmake-build-debug/CMakeFiles/Ejercicio8.dir
