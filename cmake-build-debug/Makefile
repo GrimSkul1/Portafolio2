@@ -187,6 +187,19 @@ Ejercicio2/fast:
 	$(MAKE) -f CMakeFiles\Ejercicio2.dir\build.make CMakeFiles/Ejercicio2.dir/build
 .PHONY : Ejercicio2/fast
 
+#=============================================================================
+# Target rules for targets named Ejercicio8
+
+# Build rule for target.
+Ejercicio8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Ejercicio8
+.PHONY : Ejercicio8
+
+# fast build rule for target.
+Ejercicio8/fast:
+	$(MAKE) -f CMakeFiles\Ejercicio8.dir\build.make CMakeFiles/Ejercicio8.dir/build
+.PHONY : Ejercicio8/fast
+
 Ej1/funcquit.obj: Ej1/funcquit.c.obj
 
 .PHONY : Ej1/funcquit.obj
@@ -406,6 +419,33 @@ Ej7/main.c.s:
 	$(MAKE) -f CMakeFiles\Ejercicio7.dir\build.make CMakeFiles/Ejercicio7.dir/Ej7/main.c.s
 .PHONY : Ej7/main.c.s
 
+Ej8/func.obj: Ej8/func.c.obj
+
+.PHONY : Ej8/func.obj
+
+# target to build an object file
+Ej8/func.c.obj:
+	$(MAKE) -f CMakeFiles\Ejercicio8.dir\build.make CMakeFiles/Ejercicio8.dir/Ej8/func.c.obj
+.PHONY : Ej8/func.c.obj
+
+Ej8/func.i: Ej8/func.c.i
+
+.PHONY : Ej8/func.i
+
+# target to preprocess a source file
+Ej8/func.c.i:
+	$(MAKE) -f CMakeFiles\Ejercicio8.dir\build.make CMakeFiles/Ejercicio8.dir/Ej8/func.c.i
+.PHONY : Ej8/func.c.i
+
+Ej8/func.s: Ej8/func.c.s
+
+.PHONY : Ej8/func.s
+
+# target to generate assembly for a file
+Ej8/func.c.s:
+	$(MAKE) -f CMakeFiles\Ejercicio8.dir\build.make CMakeFiles/Ejercicio8.dir/Ej8/func.c.s
+.PHONY : Ej8/func.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -420,6 +460,7 @@ help:
 	@echo ... Ejercicio7
 	@echo ... edit_cache
 	@echo ... Ejercicio2
+	@echo ... Ejercicio8
 	@echo ... Ej1/funcquit.obj
 	@echo ... Ej1/funcquit.i
 	@echo ... Ej1/funcquit.s
@@ -444,6 +485,9 @@ help:
 	@echo ... Ej7/main.obj
 	@echo ... Ej7/main.i
 	@echo ... Ej7/main.s
+	@echo ... Ej8/func.obj
+	@echo ... Ej8/func.i
+	@echo ... Ej8/func.s
 .PHONY : help
 
 
