@@ -3,7 +3,7 @@
 //
 
 #include "func.h"
-
+// 61/70
 char ** extraertest(char * p)
 {
     char *ei = "MU_TEST(";
@@ -46,7 +46,7 @@ char ** extraerrun(char * p)
     int tamanoei = (int)(strlen(ei));
     char *pi,*pf;
     pi = p;
-    char *result = malloc(sizeof(char));
+    char *result = malloc(sizeof(char)); // result debe ser char ** -2
     int tmp,c;
     c = 1;
 
@@ -77,7 +77,7 @@ char ** extraerrun(char * p)
 char **comparar(char **a,char **b)
 {
     char *i,*j;
-    char *result = malloc(sizeof(char));
+    char *result = malloc(sizeof(char)); // result debe ser char ** -2
     int c =1,n;
 
     for(i=a;*i != NULL;i++)
@@ -129,6 +129,7 @@ char * agregarmin(char *minunit, char **palabra)
 
 char *anadir(char *p,char *texto)
 {
+    // no anade -5
     char *a = p;
     int i,j;
     int tamanop = (int)strlen(p);
