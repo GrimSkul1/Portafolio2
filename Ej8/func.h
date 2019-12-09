@@ -15,7 +15,7 @@ char **comparar(char **a,char **b);
 
 char * agregarmin(char *minunit, char **palabra);
 
-char *anadir(char *p,char *texto);
+char *anadir (char *p,char *texto);
 
 FILE* escribirarchivo(const char *minu);
 

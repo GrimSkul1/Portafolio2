@@ -11,4 +11,5 @@ int main(){
     str = (char*)malloc(sizeof(char));
     printf("Introduzca una oracion:  ");
     leer_string(str);
+    printf("%s",str);
 }
